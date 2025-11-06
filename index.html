@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portofolio Elang Kurniawan Saputra</title>
+  <style>
+    /* Reset dan dasar */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+    }
+    body {
+      font-family: "UnifrakturMaguntia", cursive;
+      background: #121212;
+      color: #eee;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    a {
+      color: #00bcd4;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+    a:hover {
+      color: #26c6da;
+    }
+
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: 900px;
+      margin: 40px auto;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      font-weight: 700;
+      color: #00bcd4;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.2rem;
+      font-weight: 300;
+      color: #bbb;
+    }
+    header .contact {
+      margin-top: 20px;
+      font-size: 1rem;
+    }
+    header .contact a {
+      margin: 0 10px;
+      font-weight: 500;
+    }
+
+    /* Section Titles */
+    section h2 {
+      font-size: 2rem;
+      color: #00bcd4;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #00bcd4;
+      padding-bottom: 8px;
+      letter-spacing: 1.5px;
+    }
+
+    /* About */
+    #about p {
+      font-size: 1.1rem;
+      color: #ccc;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* Skills */
+    #skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      list-style: none;
+    }
+    #skills li {
+      background: #00bcd4;
+      color: #121212;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: 600;
+      box-shadow: 0 4px 10px rgb(0 188 212 / 0.4);
+      transition: transform 0.3s ease;
+      cursor: default;
+    }
+    #skills li:hover {
+      transform: scale(1.1);
+    }
+
+    /* Projects */
+    .project {
+      background: #1f1f1f;
+      padding: 20px;
+      margin-bottom: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgb(0 188 212 / 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 25px rgb(0 188 212 / 0.5);
+    }
+    .project h3 {
+      color: #00bcd4;
+      margin-bottom: 10px;
+    }
+    .project p {
+      color: #ddd;
+      line-height: 1.4;
+    }
+    .project img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+      box-shadow: 0 6px 15px rgb(0 188 212 / 0.3);
+      transition: transform 0.3s ease;
+      cursor: pointer;
+    }
+    .project img:hover {
+      transform: scale(1.05);
+    }
+    .project .meta {
+      margin-top: 10px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+
+    /* Contact */
+    #contact {
+      text-align: center;
+      margin-top: 50px;
+      padding: 30px 20px;
+      background: #000;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgb(0 188 212 / 0.7);
+    }
+    #contact p {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+      color: #ccc;
+    }
+    #contact a {
+      font-weight: 600;
+      font-size: 1.2rem;
+      display: inline-block;
+      margin: 5px 15px;
+      color: #00bcd4;
+    }
+    #contact a:hover {
+      color: #26c6da;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 15px 0;
+      background: #000;
+      color: #555;
+      font-size: 0.9rem;
+      margin-top: 40px;
+      letter-spacing: 1px;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+      #skills ul {
+        flex-direction: column;
+        align-items: center;
+      }
+      #skills li {
+        width: 80%;
+        text-align: center;
+      }
+    }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+  <div class="container">
+
+    <header>
+      <h1>Elang Kurniawan Saputra</h1>
+      <p>Kreator Digital | Desainer Grafis | Fotografer</p>
+      <div class="contact">
+        <a href="mailto:elangkurniawan@email.com">📧 Email</a> | 
+        <a href="https://wa.me/6285945796394?text=pesan>
+">📞 Telepon</a> | 
+        <a href="https://www.instagram.com" target="_blank"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJQAugMBEQACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABgcCBAUDAf/EAEoQAAEDAgIECAcMCQQDAAAAAAEAAgMEBQYRBxIhMRNBUWFxkbHRF1JVdIGhsiIjMkJEVGJyc5KTsxQVNmSCg8HC8CU3U+EkMzX/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAwQBAgUG/8QANREAAgIBAQQIBAUEAwAAAAAAAAECAxEEBRIhMRMUFUFRUmFxIjKBsSMzNJHBQqHh8CRT0f/aAAwDAQACEQMRAD8AupZMBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQBAEAQHHvGJ7RZ3GOsq28MN8MY13jpA3elSwpnPkg3gj79JtqDiGUNY8eN7kf1VhaGfiaOxIx8J1s8n1vWzvTqM/Ex0iHhOtnk+t62d6dRn4jpEPCdbPJ9b1s706jPxHSIeE62eT63rZ3p1GfiOkQ8J1s8n1vWzvTqM/EdIh4TrZ5PretnenUZ+JnpEPCdbPJ1YPSzvTqM/FDpEdK3Y+sNa4MfO+lefnDdVv3t3Wo56S2PJZCmmSZj2yND2ODmkZgtOYI5lW9DcyQBAEAQBAEAQBAEAQBAfDsQEDx5i6Wkkda7W/UmA9/nG9n0W8/KVa09Kl8UizXS2ssrYjWcXOzJJzJPGeVdBSNnSfC0cizvELpMdRb7xE6T5qrbeI3W0Y5FZyaOLQQ1CyAgCwD4gJJhHFlTYKhkUr3S29zsnwk56g5WcnRxqvfplauHM2jLBc0Esc8Mc0L2vjkaHMc3cQdxXGaa4MnM0AQBAEAQBAEAQBAEBpXmuFstNXXEZ8BEXAcp4h15LaK3pJElUN+aiu8oh0kkr3STPL5HuLnOJ+ETtJ611OXBHcdWOCPiZI3UdvD2GLjf3a1K1sdODk6eXMNHR4x/zNR2XRh7lW6Ua+DJpTaMre1n/k11TK/LbqANHoH/arvWT7kVHc3yR7+DS0fOKv747ljrdho5tnzwZ2f5xV/fHcs9csNcjwZ2b5xV/fHcnXrPQ1aTPngys3/PV/fHcs9et9DXcRjJoxtBYQ2qrGu5dYH+iz16zwRjo0Rm/6Orjb43z26UV0LRmWBurIPRuKsVa2EuE+Bq62uRC8st/FsKukYQFqaKbm6ptVTbpTm6keHMz8R+eXUQfUuXroYmpeJNWycqkbhAEAQBAEAQBAEAQEd0gHVwpW5ceqD0awUtPzouaBZ1ESms1fPSOs6mGbU6+XqnoQSGOzfK5p2tYNpPYOkrSye5HJU1UlTW59/cWfii/UuE7ZBS0cTOHc3Vp4fisaPjHm7VTrrdjyzi6fTy1E23yKyrMR3mtlMlRc6rM/FY8saOgNyCuKuC5I6q0lceCRr/ra5eUKz8d3ettyPgavTx8D7+trl5QrPx3d6zuQ8CN0LwH62uXFcav8d3es7kfAjdK8D5+tbn5Rq/x3d6bsfAjdKNu3z4jrHF9unuk5j+EYZHu1enb6liXRLg8EUq4LmTDB2NKmSsZa78c5XO1I53N1XB3ivH9VWv08cb8CKdWFlGjpPsEdLNHd6SMMZO/UnaBs1+J3p41Jo7m1uMgUFIgRZkr+8YdJONEmYu9wHEaYE9OsO9U9c8wj7msYOLLRXNNggCAIAgCAIAgCAICN6Q/2Rrf4faClp+dF/ZnHUwRTAKvnrN0n2iCNrrpcpSM3MgYG82bjn2BVdS+CRxdtcK4L1Zy9JM75cX1THk6sMccbBnuGrrdrit6F+GTbMrXVk/FsjGspy26z2pYJ6uoZT0kT5p37GxsbmT/nKsNpcWRTUYR3pPCJlbtG9znY19bVQUufxGgvcOniUEtSlyRyrNfUn8Ecm1U6MagMP6NdI3v5JIS0eolYWpXeiNa+PfEiV6slwskwZcICxrjkyRu1jug8vNvU8LIz5FquVdy+D9u8nWju/WmjsIo6uqgpaiOV7n8K4M4TM5ggnfsIHLsVbUQk55XIoauifSZisoh2NblT12IKmstrjwYDdWQbM3NHwuvJWKYtQxInpoahiRZGNwKrA9TJIN8UcvQdZpVSl7tpQqX4uCnMl0slx1E20UD/AFiu82HtBVdW8xRVvhuos9USsEAQBAEAQBAEAQBARvSGM8I1v8PtBSVPE0zobK/VwKX1SrqkewwWDod2V11+yi7XKvqXlI4W3Plr+v8ABw9I/wC2df8Ayvy2qWj8tFvZSzpI/X7kcja+WRkcTS+R7g1rRxk7gpuXMvSSisvuLlsNpoMGWJ9XWvYJgwOqZ8t58VvNnsHKqE5SslhHk9RfZrbt2HLuRDbvpGulXK4W1rKOAHJuYDnkcpPF0KeOnilxOrTsiqC/E4s0qPHeIKeQOfVtqG8bJmAg9WWS2dEDeey9PJYSwWDYL7bsYW2amqYGtl1ff6Zxz2eM08nPxFVZwdUso4up01mksTXLuZWWKrI6wXeSkJLoXt14HkfCZz847uVXK570cnY0tivqUlzXM48h97f9UqQm6LiXLi39ganzWP8AtVCv8089Qs6hL1KdzXQbOy6yb6Kf/sV3mw9oKtqflRztdDEUWcqZzAgCAIAgCAIAgCAICO6QP2UrOlvtBZTwdDZX6uP1KcLdqkVh7EnuiEZXC6/ZRdr1iyWUjhbd+Sv6/wAHC0itzxjX/wAr8tqlqliOC5sn9JH6/c+aOqNtTiyk4RoLYWvl28oGztWbJ/BgxtWxw0rx34R39L1fJwtBbmOIjydM8DjO4dpWunwstlHYdSxOzv5Fc7VbTR38H3MrJq0dbCle+3Ykt9QwkDhQx4Hxmu2EevP0BaWrMGirraVZp5L0/uT/AEtUjHWikq8hrwz6ufHk4busBVdM/iaOHseT6WUPFFUyn3p/1Srp6Hc4l1Yt/wBv6nzWP+1UK/zTyukWdYl6lNZq+z0brJzonOd3rvNh7QVbU/Kjk7UjiuPuWeqhwwgCAIAgCAIAgCAICPY9GeFqzpb7S0m8RydHZX6uP1KiLNpUKsPZYJ1omblX3T7KLtcpoyycHb3yV/X+DiaQm54vrj9n+W1b7+OBb2T+kj9fuYYAqW0eKqR0jgGyh0XWNnrCzv5Rnate/pZY7uJINLNte40VyYCWNBhk5szmM1tCWDnbDuS3qn38UV0WKZWHoTHUW/SA6+EbbJcsSUEDGksbIJZT4rG7Tn6h6UnZiLKevtVOnlJ8+76k50u1jWWujogRwk02vl9Fo39ZCi0/zZOLsSpu2U/BfcqmT/1u6CrmT0qXEuvGGzR9Veax9rVRr/N+p5DQ8dbH3KXzV9nrN0nWiQ/6xXebD2gq2p5I4m2Y4rj7lpKoedCAIAgCAIAgCAIAgOBjkE4ZqwPo9qg1L3amzo7J/WQ+v2Kn1TxhcxWntcE30VDKtuf2Ufa5XdNPeyef2+sQr+v8HFx8M8WVx+z/AC2rNlmJ4LmyV/w4/X7keAc1zXsJa5pBa4bwRuKK06LjlYZa2Hb1R4otJorg2M1Rj1Z4Tuk+kO3mViM1I8hrNJZort+vl3Mjd20c1kcrn2meOeH4rJnarm82e49K3yzpafbUGsXLD8UaNJo9vc8obOKanZxvc/W9QWykyazbOmivhy/7E3tdstWC7TLNLMMztmqJPhSHiAHYEbbOHdqL9oWpJeyXJf73lW4lu0t9u0tbKC1nwIWE/AYNw7T6VJCSSPT6PSrTVKtc+/3OPK3KN/1SpFYW480XPi8Z6Pqofusf9qhg8WZPH6D9dH3KX1Vc3+J64nOiQZXiv82HtBQ6iWUjibc/Kh7lpKseaCAIAgCAIAgCAIAgORitnCWKobylvaqmtf4Mi9s141MX7lbvoxyLh7x61Wkn0dMbT19a073xNI9BOfaF0dnyzOSOPtt71cH6s5OPqORuJZ5SCBMxj284DdXtaVjVycbS5sa1PSqK7m//AEjLonDeFArTrJpmLC+KVskT3Mkac2vaci08xUsbmuRiUIzjuy5EmoMd3elYGTtgqsvjSNyd1hWY6p95yLdiaebzF7psT6Q7i9pENJTRO8ba5SdZbI47BpT4yZFrnca261HDXCofM4fBBOTW9A3BZ6XJ1KdNVRHdrjj7/uaRat1YSmLoHze9RN1pJPcNA4ydgUkbBlR+J8kW7jhzaXBFVE/fwcUQ5zrNCkzjieP2Yt/Wxa9WU+WbNy3Vh6/BNdFDcrvXH92HtBJyyjibc/Kh7lnLQ8yEAQBAEAQBAEAQBAaF9j4S2TN6O1VNcvwJFrRvFyIc+l5lwDvqwztzn2+viqWA5NPuhyg7wpaLeisU+41virq3X4kqu9spr/Qsex4DwM45Mt3MV2rao6mvK59xxdPqJ6Sxp8u9ELqsM3GF+qaN7x40Y1gVyp6a6Lxu59jv17Solx3se5pvw5cSNlvqPwyiou8rJ1tCjzo8H4auh3W+p/DK2VN3lZIto6fzo8XYbu43W6qP8ordV3eVm62hpfOjzOHb15Lq/wAIrdQt8rM9f0v/AGI+DDl6c7IWuqz548u1SqNngzD1+kXHpETDCODZKGoZX3cM4Zm2KBpzDTyuO7NW6q2uLOFtHasbY9HTy72crSFfo7jOy3UjtaGneTI8HY5+7Lny2+noWtlyzhFvY+ilVF2z5vl7f5IYWrVWnbwTTRY0i61xy2Cnbn6XbOwqeuW8cLbvCqHuWSpTzIQBAEAQBAEAQBAEBhPGJoXxu3OGSjth0kHHxN4S3ZJkdfSkEhw2jiXmHFxeHzOvG1NZR4PpuZYySKwzpJqmhcTA4hp2lhGYKnp1E6X8LNLa67V8R0237YOEpXE/ROxdCO0l/VH9im9F4SDsRxD5LL1hbdpQ8rM9Qk/6kYHE8Q+SS9YTtKHlZt2bLzI8ziuEfI5vvBO0oeVmezJ+ZGBxfCPkU33mrHadflZt2VPzI8n4ziA2UE2f1gs9ow8rN1sifnRHr3ia6XCN0MWVLA4ZOEees7pd3ZKC3WznwXA6Wk2bp6XvS+J/73EVdSubxKBWHZU0zydE5u8KVWmyaZY2ji2upLZPWyNydVvGrn4jc8vWSunpV8GfE8ptvUKy5VrlH7kvVk4oQBAEAQBAEAQBAEAQGtVU4f7to91xjlXN1uj6T44cyeq1x4M0HQj0rjNNc0W1I83QBYNlZg8nQLBIrTxfThDdWHi6lQ3Vh4vpeb1LKJFYa76Xm9SzkkVp4vpeb1JkkVhrvpFnJIrTXfSceSbxIrTo2XDL6+ZstQ10dK05nZtfzDvV7S6WVr3nwX3Ker2mqVuweZfYn0bGRsayNoa1oyAA2ALtpJLCPNNuTyzJZMBAEAQBAEAQBAEAQBAEBg+Jjx7poJ5VDZRXZ8yNlOUeTPL9EZykelVuzqfUk6aQ/RI+V3WsdnVeo6eR8NHEd+t1p2dV6menmYmghPjdadnVepnrMzE22A8butOzqvUytVYj4bVTnjd1p2dV6m3XLDA2alPj9adnVeo67YYmx0h38Jl0p2dV6mevWnrBaaKF4cIQ9w3F+1TQ0dUHlL9yOequmsNm9lluVogCGAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCAIAgCA//2Q==" width="5%
+        -10%"></a> Instagram</a>
+      </div>
+    </header>
+
+    <section id="about">
+      <h2>Tentang Saya</h2>
+      <p>Saya adalah kreator digital dengan pengalaman lebih dari 3 tahun di bidang desain grafis dan fotografi. Saya berfokus pada pembuatan konten visual yang menarik dan efektif untuk berbagai klien UMKM dan event kreatif.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Keahlian</h2>
+      <ul>
+        <li>Adobe Photoshop</li>
+        <li>Adobe Illustrator</li>
+        <li>Fotografi Produk</li>
+        <li>Editing Video (Premiere Pro)</li>
+        <li>Branding & Identitas Visual</li>
+        <li>Manajemen Konten Sosial Media</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Proyek Terpilih</h2>
+      
+      <article class="project">
+        <h3>Branding Kopi Nusantara</h3>
+        <p>Mendesain logo, kemasan, dan materi promosi digital untuk UMKM kopi lokal.</p>
+        <div class="meta">2023 | Jakarta</div>
+        <img src="https://cdn.dribbble.com/userupload/23433681/file/original-40946d35b95775c47025e05177bce432.png?resize=752x564&vertical=center" alt="Branding Kopi Nusantara" />
+      </article>
+
+      <article class="project">
+        <h3>Dokumentasi Event Creative Fest 2024</h3>
+        <p>Fotografi selama 2 hari acara pameran kreatif di Jakarta Convention Center.</p>
+        <div class="meta">2024 | Jakarta</div>
+        <img src="https://via.placeholder.com/800x400?text=Creative+Fest+2024" alt="Creative Fest 2024" />
+      </article>
+
+      <article class="project">
+        <h3>Konten Instagram @fashionvibes_id</h3>
+        <p>Produksi konten visual foto dan video untuk meningkatkan engagement hingga 40%.</p>
+        <div class="meta">2024 | Online</div>
+        <img src="https://via.placeholder.com/800x400?text=Fashionvibes+Instagram+Content" alt="Fashionvibes Instagram Content" />
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Hubungi Saya</h2>
+      <p>Terbuka untuk kolaborasi dan proyek baru! Silakan hubungi saya melalui email atau Instagram.</p>
+      <a href="mailto:elangkurniawan@email.com">elangkurniawan@email.com</a>  
+      <a href="https://instagram.com/elangkreatif" target="_blank">Instagram @elangkreatif</a>
+    </section>
+
+  </div>
+
+  <footer>
+    &copy; 2025 Elang Kurniawan Saputra. All rights reserved.
+  </footer>
+
+</body>
+</html>
